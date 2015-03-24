@@ -1,0 +1,41 @@
+
+head{
+ width:800px;
+ height:80px;
+}
+
+
+body{
+  background-image:url(http://ppt.cc/BiUR@.jpg);
+  font-size:20px;
+  padding:20px;
+  border:5px #008080 solid;
+  border-radius:8px;
+  margin:20px;
+  width:100%;
+  height:2500px;
+}
+
+.one{
+  width:40%;
+  display:inline-block;
+  float:left;
+}
+
+.question{
+  width:60%;
+ display:inline-block;
+  float:right; 
+}
+
+footer{ 
+  font-size:30px;
+}
+
+input:checked + label{
+  color: green;
+}
+input[type=submit]{
+  opacity:1;
+}
+
